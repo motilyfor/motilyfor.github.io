@@ -224,6 +224,18 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      author: motilyfor
+      category:
+      tags:
+    posts:
+      category:
+      tags:
+      published: false
+      sitemap: false
 # plugins:
 #   - jekyll-multiple-languages-plugin
 
